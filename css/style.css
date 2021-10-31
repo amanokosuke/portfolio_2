@@ -1,0 +1,180 @@
+/* �S�� ==========*/
+
+.satori__custom_form_99c7850dec1d2327_css{
+  background-color:#eee!important;
+  color:#000!important;
+}
+.satori__custom_form_99c7850dec1d2327_css .satori__require {
+  display: inline-block!important;
+    background: #0068b7!important;
+    border-radius: 5px!important;
+    color: #FFF!important;
+    padding:10px!important;
+}
+
+.satori__custom_form_99c7850dec1d2327_css input[type=radio]+label {
+    color: rgba(51,51,51,.9)!important;
+  }
+  .satori__custom_form_99c7850dec1d2327_css input[type=checkbox]+label, .satori__custom_form_99c7850dec1d2327_css input[type=radio]+label {
+    color: rgba(51,51,51,.9)!important;
+  }
+  .satori__custom_form_99c7850dec1d2327_css a, .satori__custom_form_99c7850dec1d2327_css a:visited {
+    color: #3CB371!important;
+    font-weight: bold!important;
+  }
+  #satori__finish_panel, .satori__finish_panel_99c7850dec1d2327 p.satori__message{
+    text-align:center!important;
+    margin-top:40px!important;
+  }
+.satori__custom_form {
+  width: 100%;
+  @media screen and (max-width: 760px) { font-size: .7em; }
+}
+
+/* ���x�� ==========*/
+.satori__custom_form .satori__input_group label:first-child {
+  color: #000!important;
+  font-size:16px!important;
+}
+
+/* �{�^�� ==========*/
+.satori__custom_form .satori__btn {
+  width:220px;
+  height:60px;
+  background: linear-gradient(#ff8b45, #ff6161);
+  border-bottom: solid 6px #c11919;
+  border-radius: 14px!important;
+  line-height: 40px!important;
+  color:white!important;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.satori__custom_form .satori__btn:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+/* ���������{�^�� -----*/
+.satori__custom_form .satori__btn.cancel {
+  background-color: #E9D985;
+  color: #635712;
+}
+
+/* ���̓t�H�[�� ==========*/
+/* �]�� */
+.satori__custom_form .satori__input_group input[type='text'],
+.satori__custom_form .satori__input_group input[type='tel'],
+.satori__custom_form .satori__input_group input[type='password'],
+.satori__custom_form .satori__input_group input[type='email'],
+.satori__custom_form .satori__input_group input[type='number'],
+.satori__custom_form .satori__input_group input[type='url'],
+.satori__custom_form .satori__input_group textarea {
+  padding: 10px
+}
+/* �ҋ@���� */
+.satori__custom_form .satori__input_group input[type='text'],
+.satori__custom_form .satori__input_group input[type='tel'],
+.satori__custom_form .satori__input_group input[type='password'],
+.satori__custom_form .satori__input_group input[type='email'],
+.satori__custom_form .satori__input_group input[type='number'],
+.satori__custom_form .satori__input_group input[type='url'],
+.satori__custom_form .satori__input_group textarea {
+  background-color: rgba(100, 100, 100, 0.1);
+  border-color: rgba(0, 0, 0, 0.3);
+  color: #333;
+}
+/* �t�H�[�J�X */
+.satori__custom_form .satori__input_group input[type='text']:focus,
+.satori__custom_form .satori__input_group input[type='tel']:focus,
+.satori__custom_form .satori__input_group input[type='password']:focus,
+.satori__custom_form .satori__input_group input[type='email']:focus,
+.satori__custom_form .satori__input_group input[type='number']:focus,
+.satori__custom_form .satori__input_group input[type='url']:focus,
+.satori__custom_form .satori__input_group textarea:focus {
+  color: #333;
+  background-color: #FFF;
+  border-color: #50C8A7;
+}
+/* �m�F���ʗp�@���͖������� */
+.satori__custom_form .satori__input_group input[type='text']:disabled,
+.satori__custom_form .satori__input_group input[type='tel']:disabled,
+.satori__custom_form .satori__input_group input[type='password']:disabled,
+.satori__custom_form .satori__input_group input[type='email']:disabled,
+.satori__custom_form .satori__input_group input[type='number']:disabled,
+.satori__custom_form .satori__input_group input[type='url']:disabled,
+.satori__custom_form .satori__input_group textarea:disabled {
+  background-color: rgba(100,100,100,0.1);
+  border-color: rgba(0,0,0,0);
+  -webkit-opacity: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#efefef));
+  background-image: -webkit-linear-gradient(left, #efefef, #efefef);
+}
+/* �T�C�Y */
+.satori__custom_form .satori__input_group input[type='text'],
+.satori__custom_form .satori__input_group input[type='tel'],
+.satori__custom_form .satori__input_group input[type='password'],
+.satori__custom_form .satori__input_group input[type='email'],
+.satori__custom_form .satori__input_group input[type='number'],
+.satori__custom_form .satori__input_group input[type='url'],
+.satori__custom_form .satori__input_group textarea {
+  height: auto;
+  padding: 13px;
+}
+
+/* �|�b�v�A�b�v�p�ݒ� ==========*/
+/* �|�b�v�A�b�v�A�j���[�V�������x */
+.satori__popup_widget_tr,
+.satori__popup_widget_m,
+.satori__popup_widget_br {
+  animation-duration: 1s !important;
+  -webkit-animation-duration: 1s !important;
+}
+/* �|�b�v�A�b�v�̕����T�C�Y -----*/
+#satori__popup_widget {
+  font-size: 12px;
+}
+/* �|�b�v�A�b�v�̕� -----*/
+/* PC�� */
+@media screen and (min-width: 760px) {
+  #satori__popup_widget.satori__popup_widget_m,
+  #satori__popup_widget.satori__popup_widget_br,
+  #satori__popup_widget.satori__popup_widget_tr {
+    width: 350px;
+  }
+}
+/* �X�}�t�H�� */
+@media screen and (max-width: 760px) {
+  #satori__popup_widget.satori__popup_widget_m,
+  #satori__popup_widget.satori__popup_widget_br,
+  #satori__popup_widget.satori__popup_widget_tr {
+    max-width: 90%;
+  }
+}
+/* �E���|�b�v�A�b�v���C���J���[ -----*/
+#satori__popup_widget.satori__popup_widget_br {
+  border-top: 5px solid #50C8A7 !important;
+}
+/* �E���|�b�v�A�b�v���C���J���[ -----*/
+#satori__popup_widget.satori__popup_widget_tr {
+  border-left: 5px solid #50C8A7 !important;
+}
+/* �����|�b�v�A�b�v���C���J���[ -----*/
+#satori__popup_widget.satori__popup_widget_m {
+  border-top: 5px solid #50C8A7 !important;
+}
+/* �����|�b�v�A�b�v �I�[�o�[���C�J���[ -----*/
+#satori__popup_wrapper.satori__popup_widget_m.satori__popup_maximized,
+#satori__popup_wrapper.satori__popup_widget_m.satori__popup_open {
+  background-color: rgba(0,0,0,.7) !important;
+}
+/* �|�b�v�A�b�v�^�C�g�� -----*/
+.satori__popup_title {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 5px;
+  color: inherit;
+}
+/* �N���[�Y�{�^�� -----*/
+#satori__popup_close {
+  background-color: #50C8A7 !important;
+}

@@ -1,0 +1,115 @@
+@media screen and (max-width:1023px) {
+
+.contena{
+  width:768px;
+}
+
+.nav_2{
+  margin-left:10px;
+}
+.nav_2 span {
+    font-size: 14px;
+}
+
+.header_2 a{
+  margin-left:200px;
+}
+.header_2 img{
+  width:350px;
+  height:350px;
+  margin-left:50px;
+  margin-top:90px;
+}
+.header_2 .modal__content img{
+    width:500px!important;
+}
+.header_2 .modal__content p{
+  width:auto;
+}
+#kaiketsu_contena{
+  background-image: url("../photo/kaiketsu_pd.png");
+}
+#about_contena section{
+  justify-content: space-between;
+}
+.about_column_1 h3{
+  font-size:24px;
+  padding:0 2px;
+}
+.about_column_2{
+  width:420px;
+  margin-left:10px;
+}
+.about_column_2 h4{
+  font-size:18px;
+}
+h4.about_h4{
+  margin-left:50px;
+}
+#about_contena section img{
+  width:180px;
+  height:auto;
+  margin:auto 0 auto 5px;
+}
+#reason_contena{
+  flex-direction: column;
+}
+.reason_title{
+  margin:0 auto;
+}
+.reason_title .reason_subtitle{
+  margin: 0 auto 5px;
+}
+.reason section{
+  margin:50px auto 0;
+}
+.access_area{
+  height:auto;
+}
+#access_area_contena{
+  background-image:url("../photo/access_contena_pd.png");
+  background-size: cover;
+}
+.access_area_column{
+  margin-top:10px;
+}
+
+#access_area_access{
+  width:240px;
+  height:70px;
+  font-size:24px;
+  line-height: 70px;
+}
+
+#casestudy_contena section h4 span{
+    left:240px;
+}
+.casestudy_column{
+  justify-content: space-between;
+  padding:0 10px;
+}
+.casestudy_column_1{
+  width:400px;
+}
+.casestudy_column_1 h5{
+  font-size: 20px;
+}
+.casestudy_column_1 p{
+  width:400px;
+}
+.casestudy_column img{
+  width:300px;
+  height: 180px;
+}
+#function_contena ul{
+  width:100%;
+}
+.yajirushi{
+  display: none;
+}
+#faq_contena section{
+  margin:40px auto;
+}
+#company_contena section ul li p{
+  width:230px;
+}

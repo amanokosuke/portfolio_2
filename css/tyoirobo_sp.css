@@ -1,0 +1,98 @@
+@media screen and (max-width:480px) {
+  .contena{
+    width:100%;
+  }
+
+  #nav_access{
+    display: none;
+  }
+
+  .kaiketsu{
+    height:350px;
+  }
+  .nav_2{
+    text-align:right;
+  }
+  .kadai{
+    padding:50px 0;
+  }
+  .kadai_list_column{
+    width:200px;
+  }
+  .kadai_list section h3{
+    font-size:20px;
+  }
+  .kadai_list section em{
+    font-size:40px;
+  }
+  .kadai_list section span{
+    font-size:12px;
+  }
+  .kadai_list section img{
+    width:100px;
+    height:100px;
+    margin-left: 10px;
+    margin-top:0px;
+  }
+  #kaiketsu_contena{
+    background-image: url("../photo/kaiketsu_sp.png");
+    background-size: cover;
+    background-position: center;
+  }
+  #kaiketsu_contena section{
+    flex-direction: column;
+    padding-top:120px;
+  }
+  #kaiketsu_contena section p{
+    margin:20px 0;
+  }
+  .about_column_2 h4 {
+    font-size: 16px;
+}
+  #access_area_contena p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.introdused{
+  background: #eee;
+  padding:50px 0 50px 0;
+}
+
+#function_contena ul {
+    justify-content: space-around;
+}
+#function_contena li{
+      width:160px;
+}
+#faq_contena section h3{
+      padding-left: 10px;
+      font-size:14px;
+}
+#faq_contena ul {
+    margin: 30px auto 0;
+}
+
+#faq_contena section p{
+  width:90%;
+  font-size:14px;
+  margin:0 auto;
+}
+#news_contena section{
+  font-size:14px;
+  line-height: 18px;
+}
+#news_contena section p {
+    margin-left: 30px;
+}
+#company_contena section ul li p {
+    width: 50%;
+}
+.casestudy {
+    padding:0;
+}
+footer {
+    padding-top: 0px;
+}
+
+}

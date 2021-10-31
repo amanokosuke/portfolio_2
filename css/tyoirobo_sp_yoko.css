@@ -1,0 +1,382 @@
+@media screen and (max-width:767px) {
+
+  .pc_photo{
+    display: none!important;
+  }
+  .sp_photo{
+    display: block!important;
+  }
+  .sp_br{
+    display: block;
+  }
+.contena{
+  width:481px;
+}
+
+.subtitle{
+  font-size:24px;
+  letter-spacing: 4px;
+  text-indent: 4px;
+}
+.subtitle_2{
+  font-size:16px;
+}
+#nav_contena{
+  width:100%;
+}
+.nav_1{
+  width:160px;
+  margin:0;
+  padding:0;
+}
+.nav_1 span{
+  font-size:12px;
+}
+.nav_1 img{
+  width:150px;
+}
+.nav_2{
+  margin-left:30px;
+  line-height: 20px;
+}
+
+.nav_2 span{
+  font-size:12px;
+}
+.nav_2 h2{
+  font-size:24px;
+}
+#nav_access{
+  font-size:18px;
+}
+
+header{
+  height:auto;
+  background-image: url("../photo/top_bg_sp.png");
+  background-size: cover;
+}
+
+#header_contena{
+  flex-direction:column;
+  margin:0 auto;
+}
+.header_1{
+  width:100%;
+}
+.header_1 h1:before {
+  display: none;
+}
+.header_2 a{
+  margin:20px auto 10px;
+}
+.modal__content{
+  padding:20px;
+  width:70%;
+}
+
+.modal__content .pc_photo{
+display: none;
+}
+.header_2 .modal__content img{
+  width:70%!important;
+  height:auto!important;
+  margin-top:20px;
+}
+.header_2 .modal__content p{
+  font-size:14px;
+  margin-top:10px;
+  width:100%;
+}
+.modal_close{
+  font-size:50px;
+  position: absolute;
+  right:2%;
+  top:0;
+  cursor: pointer;
+}
+.kadai{
+  /* background:gray; */
+  padding:40px 5px 0;
+}
+
+.kadai h2{
+  font-size: 34px;
+  line-height: 40px;
+}
+.kadai.list section{
+  width:90%;
+}
+.kadai_list_column{
+  width:250px;
+  /* background: red; */
+}
+.kadai_list section em{
+  font-size:50px;
+}
+.kadai_list section p{
+  width:240px;
+  font-size: 12px;
+  padding-left:4px;
+  /* background:blue; */
+    background-image: url("../photo/fukidashi_sp.png");
+    background-size:cover;
+}
+#kaiketsu_contena{
+  background-image: url("../photo/kaiketsu_sp_yoko.png");
+}
+#kaiketsu_contena section{
+  width: 100%;
+  text-align: center;
+  padding-top:90px;
+}
+#kaiketsu_contena section p{
+  font-size: 24px;
+}
+#kaiketsu_contena section img{
+  width:240px;
+  padding-bottom:5px;
+  margin:0 auto;
+  border-bottom:5px solid #ffff00;
+}
+#about_contena{
+  padding:20px 0;
+}
+#about_contena .subtitle{
+  margin-top:50px;
+}
+.subtitle_3{
+  width:90%;
+}
+#about_contena section {
+  flex-direction: column;
+  width:90%;
+  background: #fff;
+  padding-top:30px;
+  padding-bottom: 30px;
+  margin:30px auto;
+}
+.about_column_1{
+  margin:0 auto;
+}
+.about_column_2{
+  width:90%;
+  margin:30px auto;
+}
+.about_column_2 h4{
+  font-size:18px;
+}
+#about_contena section img{
+margin:0 auto;
+}
+#about_contena ul{
+  padding-bottom:50px;
+}
+#about_contena ul li{
+margin-left:0;
+}
+#reason_contena{
+flex-direction: column;
+}
+.reason{
+width:100%;
+box-sizing: border-box;
+}
+#reason_contena{
+width: 100%;
+padding:30px 0;
+}
+.reason_title .reason_subtitle{
+text-align: center;
+}
+
+.reason section{
+flex-direction: column;
+height:auto;
+width:90%;
+margin:30px auto;
+padding:10px 5px;
+}
+.reason section img{
+margin:0 auto;
+}
+.reason_column{
+margin:10px auto;
+text-align: center;
+}
+.reason_column h3{
+display: inline;
+font-size:24px;
+line-height: 28px;
+padding-bottom:5px;
+background: linear-gradient(transparent 60%, #66ccff 20%);
+}
+.reason_column p{
+text-align: left;
+padding:0 5px;
+}
+.access_area{
+height:auto;
+}
+#access_area_contena{
+padding:20px 5px;
+}
+
+.access_area_column{
+height:auto;
+flex-direction: column;
+margin:20px auto 0;
+}
+
+#access_area_access{
+margin:0 auto;
+}
+.access_button{
+margin:40px auto;
+}
+.access_tel{
+margin:0 auto;
+padding:0;
+}
+#casestudy_contena{
+padding:70px 0 0;
+width:100%;
+}
+#casestudy_contena section h4{
+width:100%;
+font-size:18px;
+padding:0;
+margin:0;
+}
+#casestudy_contena section h4 span{
+bottom:15px;
+left:120px;
+}
+#casestudy_contena section h4 em{
+font-size:40px;
+}
+#casestudy_contena section h4 em .emem{
+font-size:28px;
+}
+#casestudy_contena section h4 .ememem{
+font-size:24px;
+color:#FFF;
+}
+.casestudy_column{
+flex-direction: column;
+}
+.casestudy_column_1{
+order:2;
+width: 90%;
+margin:0 auto;
+margin-top:50px;
+}
+.casestudy_column_1 h5{
+font-size:18px;
+
+}
+.casestudy_column_1 p{
+width:100%;
+line-height: 24px;
+
+}
+.casestudy_column img{
+order:1;
+width: 80%;
+height: auto;
+margin:0 auto;
+}
+p.sub_column{
+line-height: 70px;
+}
+.introdused{
+background: #eee;
+padding:50px 20px 100px;
+}
+#introdused_contena section{
+flex-direction: column;
+}
+#introdused_contena li{
+margin-top:30px;
+}
+.function{
+padding:50px 5px;
+}
+#function_contena ul{
+width:100%;
+  justify-content:space-between;
+}
+#function_contena li{
+width:180px;
+margin:20px 0 0;
+}
+.flow{
+padding:50px 5px;
+background-size:auto;
+background-position:center center;
+}
+.yajirushi{
+display: none;
+}
+.faq{
+padding:50px 0;
+}
+#faq_contena ul{
+margin:70px auto 0;
+width:100%;
+}
+#faq_contena section{
+width:100%;
+margin:40px 0;
+}
+#faq_contena section h3{
+width:100%;
+font-size:16px;
+padding:5px;
+}
+
+.download{
+padding:50px 5px;
+}
+.news{
+padding:50px 0;
+}
+.company{
+padding:50px 0;
+}
+#company_contena section{
+flex-direction: column;
+width:90%;
+margin:0 auto;
+}
+#company_contena section ul{
+width:100%;
+font-size:14px;
+}
+#company_contena section ul li h4{
+width:30%;
+}
+#company_contena section ul li p{
+width:70%;
+}
+
+footer{
+height: auto;
+}
+#footer_contena{
+  flex-direction: column;
+}
+#footer_contena small{
+width:100%;
+font-size:12px;
+margin-top:15px;
+text-align: center;
+display: block;
+}
+#footer_contena a{
+display: inline-block;
+text-align: right;
+font-size:14px;
+margin:20px 0 20px auto;
+padding-right: 20px;
+}
+}
